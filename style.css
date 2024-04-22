@@ -4,6 +4,52 @@
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
+@media only screen and (max-width: 768px) {
+    body {
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+    }
+
+    .container {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    h1 {
+        font-size: 24px;
+    }
+
+    input[type="text"],
+    input[type="tel"],
+    button {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: left;
+    }
+
+    th:nth-child(1),
+    td:nth-child(1) {
+        display: none;
+    }
+
+    #search {
+        width: calc(100% - 40px);
+    }
+}
 
 h1{
     font-size: 50px;
