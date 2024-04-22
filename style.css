@@ -138,6 +138,7 @@ table td{
     display: inline-block;
     background: none;
     border: none;
+    cursor: pointer;
   }
 
   i{
